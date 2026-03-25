@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CarExpress - Kits Automotivos</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="/css/carexpress.css" />
+</head>
+
+<body>
+
+    <!-- TOP BAR -->
+    <div class="topbar">
+        <div class="topbar-inner">
+            <div class="topbar-left">
+                <a href="#" class="topbar-item">
+                    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    Cachoeiro de Itapemirim, ES
+                </a>
+            </div>
+            <div class="topbar-right">
+                <a href="tel:+5528999999999" class="topbar-item">
+                    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 8V5z" />
+                    </svg>
+                    (28) 9 9999-9999
+                </a>
+                <a href="mailto:contato@carexpress.com.br" class="topbar-item">
+                    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                    contato@carexpress.com.br
+                </a>
+                <span class="topbar-item">
+                    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    Seg - Sáb: 8h às 18h
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">
+                <img src="/img/CarExpress-logo.png" alt="CarExpress"
+                    onerror="this.style.display='none';this.nextElementSibling.style.display='block'" />
+                <span
+                    style="display:none;font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:28px;color:#fff;"><span
+                        style="color:#d4181a">Car</span>Express</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#kits">Kits</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="nav-cart">
+                    <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>
+                    Carrinho (0)
+                </button>
+                <button class="btn-quote">Fale Conosco</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-inner">
+            <div class="hero-content">
+                <div class="hero-badge fade-up">🏁 N°1 em Kits Automotivos</div>
+                <h1 class="fade-up delay-1">Seu carro<span>merece o melhor</span></h1>
+                <p class="fade-up delay-2">
+                    A CarExpress oferece os melhores kits automotivos para manutenção, estética e proteção do seu
+                    veículo. Qualidade profissional ao alcance de todos.
+                </p>
+                <div class="hero-btns fade-up delay-3">
+                    <a href="#produtos" class="btn-primary">Ver Produtos</a>
+                    <a href="#kits" class="btn-outline">Nossos Kits</a>
+                </div>
+                <div class="hero-stats fade-up delay-3">
+                    <div class="stat">
+                        <div class="stat-num">5K+</div>
+                        <div class="stat-label">Clientes Satisfeitos</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-num">120+</div>
+                        <div class="stat-label">Produtos em Estoque</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-num">48h</div>
+                        <div class="stat-label">Entrega Rápida</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual fade-up delay-2">
+                <div class="hero-img-card">
+                    <div class="hero-car-placeholder">
+                        <!-- SVG car illustration -->
+                        <svg class="hero-car-svg" viewBox="0 0 500 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Body -->
+                            <ellipse cx="250" cy="185" rx="220" ry="20" fill="rgba(212,24,26,0.15)" />
+                            <!-- Car main body -->
+                            <path
+                                d="M60 160 L80 120 Q120 75 180 70 L320 68 Q380 70 420 110 L440 140 L440 165 Q440 175 430 175 L70 175 Q60 175 60 165 Z"
+                                fill="#1a1a1a" stroke="#333" stroke-width="1.5" />
+                            <!-- Red accent on top -->
+                            <path d="M80 120 Q130 80 200 75 L320 73 Q370 76 410 110 L420 120" stroke="#d4181a"
+                                stroke-width="3" fill="none" stroke-linecap="round" />
+                            <!-- Windows -->
+                            <path d="M130 118 L175 80 L260 78 L260 118 Z" fill="#0a2a3a" stroke="#555"
+                                stroke-width="1" />
+                            <path d="M265 78 L350 80 L395 118 L265 118 Z" fill="#0a2a3a" stroke="#555"
+                                stroke-width="1" />
+                            <!-- Door lines -->
+                            <line x1="260" y1="80" x2="260" y2="165" stroke="#333" stroke-width="1.5" />
+                            <!-- Wheels -->
+                            <circle cx="130" cy="175" r="32" fill="#111" stroke="#555" stroke-width="2" />
+                            <circle cx="130" cy="175" r="20" fill="#1a1a1a" stroke="#d4181a" stroke-width="1.5" />
+                            <circle cx="130" cy="175" r="8" fill="#d4181a" />
+                            <circle cx="370" cy="175" r="32" fill="#111" stroke="#555" stroke-width="2" />
+                            <circle cx="370" cy="175" r="20" fill="#1a1a1a" stroke="#d4181a" stroke-width="1.5" />
+                            <circle cx="370" cy="175" r="8" fill="#d4181a" />
+                            <!-- Headlight -->
+                            <path d="M430 125 L445 130 L445 148 L430 148 Z" fill="#ffe000" opacity="0.6" />
+                            <!-- Tail light -->
+                            <path d="M65 125 L55 130 L55 148 L65 148 Z" fill="#d4181a" opacity="0.8" />
+                            <!-- Shine line -->
+                            <path d="M100 100 L380 96" stroke="rgba(255,255,255,0.12)" stroke-width="3"
+                                stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <div class="hero-card-info">
+                        <div>
+                            <div class="hero-card-title">Kit Premium Completo</div>
+                            <div style="font-size:13px;color:var(--gray);margin-top:3px">Proteção total para seu veículo
+                            </div>
+                        </div>
+                        <div class="hero-card-tag">Destaque</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee-strip">
+        <div class="marquee-track" id="marquee">
+            <!-- Items duplicated for seamless loop -->
+            <span class="marquee-item"><span class="marquee-dot"></span>Kit de Limpeza</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Polimento Profissional</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Proteção de Pintura</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Cristalização</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Renovação de Plásticos</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Higienização Interna</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Cera Premium</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Kit de Limpeza</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Polimento Profissional</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Proteção de Pintura</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Cristalização</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Renovação de Plásticos</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Higienização Interna</span>
+            <span class="marquee-item"><span class="marquee-dot"></span>Cera Premium</span>
+        </div>
+    </div>
+
+    <!-- WHY US -->
+    <section class="why" id="sobre">
+        <div class="container">
+            <div class="why-grid">
+                <div>
+                    <div class="section-tag">Por que a CarExpress</div>
+                    <h2 class="section-title">A solução completa para <span>seu veículo</span></h2>
+                    <p class="section-desc">A CarExpress é especialista em kits automotivos de alta qualidade. Nossos
+                        produtos são selecionados criteriosamente para garantir o melhor resultado para o seu carro.</p>
+                    <div class="why-features">
+                        <div class="why-feature">
+                            <div class="why-icon">
+                                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="why-feat-title">Produtos Originais Garantidos</div>
+                                <div class="why-feat-desc">Trabalhamos apenas com marcas homologadas e produtos 100%
+                                    originais, com nota fiscal e garantia do fabricante.</div>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-icon">
+                                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="why-feat-title">Entrega Rápida</div>
+                                <div class="why-feat-desc">Enviamos para todo o Brasil com agilidade. Frete expresso
+                                    disponível para garantir que você receba o mais rápido possível.</div>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-icon">
+                                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="why-feat-title">Suporte Especializado</div>
+                                <div class="why-feat-desc">Nossa equipe de especialistas está pronta para ajudar você a
+                                    escolher o kit ideal para cada necessidade do seu veículo.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="why-visual">
+                    <div class="why-card">
+                        <div class="why-card-num">5K+</div>
+                        <div class="why-card-label">Clientes Ativos</div>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-card-num">120+</div>
+                        <div class="why-card-label">Produtos</div>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-card-num">4.9★</div>
+                        <div class="why-card-label">Avaliação Média</div>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-card-num">98%</div>
+                        <div class="why-card-label">Satisfação</div>
+                    </div>
+                    <div class="why-card large">
+                        <div class="why-card-num">8+</div>
+                        <div class="why-card-label">Anos de Experiência no Mercado Automotivo</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="products" id="produtos">
+        <div class="container">
+            <div class="products-header">
+                <div>
+                    <div class="section-tag">Nossos Produtos</div>
+                    <h2 class="section-title">Produtos em <span>Destaque</span></h2>
+                    <p class="section-desc">Confira os produtos mais vendidos da nossa loja, escolhidos pelos nossos
+                        clientes.</p>
+                </div>
+                <a href="#" class="btn-outline">Ver Todos</a>
+            </div>
+            <div class="products-grid">
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <div class="product-badge">Mais Vendido</div>
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                        </svg>
+                    </div>
+                    <div class="product-body">
+                        <div class="product-cat">Polimento</div>
+                        <div class="product-name">Kit Polimento Profissional</div>
+                        <div class="product-desc">Conjunto completo com compostos abrasivos, esponjas de polimento e
+                            flanelas de acabamento para resultado profissional.</div>
+                        <div class="product-footer">
+                            <div class="product-price"><small>R$</small> 189,90</div>
+                            <button class="btn-add">
+                                <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 4v16m8-8H4" />
+                                </svg>
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                        </svg>
+                    </div>
+                    <div class="product-body">
+                        <div class="product-cat">Proteção</div>
+                        <div class="product-name">Cera Cristalizadora Premium</div>
+                        <div class="product-desc">Cera com nanotecnologia para proteção duradoura da pintura, efeito
+                            hidrofóbico e brilho espelhado por até 6 meses.</div>
+                        <div class="product-footer">
+                            <div class="product-price"><small>R$</small> 129,90</div>
+                            <button class="btn-add">
+                                <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 4v16m8-8H4" />
+                                </svg>
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <div class="product-badge">Novo</div>
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                        </svg>
+                    </div>
+                    <div class="product-body">
+                        <div class="product-cat">Limpeza</div>
+                        <div class="product-name">Kit Higienização Interna</div>
+                        <div class="product-desc">Tudo que você precisa para uma limpeza profunda no interior do seu
+                            veículo: estofados, plásticos, vidros e carpetes.</div>
+                        <div class="product-footer">
+                            <div class="product-price"><small>R$</small> 149,90</div>
+                            <button class="btn-add">
+                                <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 4v16m8-8H4" />
+                                </svg>
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                        </svg>
+                    </div>
+                    <div class="product-body">
+                        <div class="product-cat">Renovação</div>
+                        <div class="product-name">Renovador de Plásticos</div>
+                        <div class="product-desc">Renova e protege todos os plásticos externos e internos do veículo,
+                            devolvendo o brilho original e criando barreira UV.</div>
+                        <div class="product-footer">
+                            <div class="product-price"><small>R$</small> 69,90</div>
+                            <button class="btn-add">
+                                <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 4v16m8-8H4" />
+                                </svg>
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <div class="product-badge">Oferta</div>
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+                        </svg>
+                    </div>
+                    <div class="product-body">
+                        <div class="product-cat">Lavagem</div>
+                        <div class="product-name">Shampoo Automotivo 5L</div>
+                        <div class="product-desc">Shampoo concentrado com pH neutro para lavagem segura de todas as
+                            superfícies do veículo sem agredir a cera.</div>
+                        <div class="product-footer">
+                            <div class="product-price"><small>R$</small> 49,90</div>
+                            <button class="btn-add">
+                                <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 4v16m8-8H4" />
+                                </svg>
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                        </svg>
+                    </div>
+                    <div class="product-body">
+                        <div class="product-cat">Proteção</div>
+                        <div class="product-name">Vitrificador de Pneus</div>
+                        <div class="product-desc">Protege e realça os pneus com efeito brilhante ou fosco, resistente à
+                            água e a sujeira por longos períodos.</div>
+                        <div class="product-footer">
+                            <div class="product-price"><small>R$</small> 39,90</div>
+                            <button class="btn-add">
+                                <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 4v16m8-8H4" />
+                                </svg>
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- KITS -->
+    <section class="kits" id="kits">
+        <div class="container">
+            <div style="text-align:center;max-width:600px;margin:0 auto;">
+                <div class="section-tag" style="justify-content:center;">Escolha seu Kit</div>
+                <h2 class="section-title">Nossos <span>Kits Completos</span></h2>
+                <p class="section-desc" style="margin:0 auto;">Escolha o kit ideal para o seu veículo. Tudo que você
+                    precisa em um único pacote, com preço especial.</p>
+            </div>
+            <div class="kits-grid">
+
+                <div class="kit-card">
+                    <div class="kit-icon">
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+                        </svg>
+                    </div>
+                    <div class="kit-name">Kit Básico</div>
+                    <div class="kit-price">R$ 89</div>
+                    <div class="kit-price-note">parcelamento em até 3x</div>
+                    <ul class="kit-items">
+                        <li>Shampoo Automotivo 1L</li>
+                        <li>Cera de Proteção 200g</li>
+                        <li>Renovador de Plásticos</li>
+                        <li>Flanela Premium 2 unid.</li>
+                        <li>Esponja de Aplicação</li>
+                    </ul>
+                    <button class="btn-kit outline">Adicionar ao Carrinho</button>
+                </div>
+
+                <div class="kit-card featured">
+                    <div class="kit-icon">
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                        </svg>
+                    </div>
+                    <div class="kit-name">Kit Premium</div>
+                    <div class="kit-price">R$ 229</div>
+                    <div class="kit-price-note">parcelamento em até 6x</div>
+                    <ul class="kit-items">
+                        <li>Shampoo Concentrado 5L</li>
+                        <li>Cera Cristalizadora Nano</li>
+                        <li>Kit Polimento Completo</li>
+                        <li>Renovador de Plásticos Pro</li>
+                        <li>Kit Higienização Interna</li>
+                        <li>Vitrificador de Pneus</li>
+                        <li>Flanelas e Acessórios</li>
+                    </ul>
+                    <button class="btn-kit">Adicionar ao Carrinho</button>
+                </div>
+
+                <div class="kit-card">
+                    <div class="kit-icon">
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                        </svg>
+                    </div>
+                    <div class="kit-name">Kit Professional</div>
+                    <div class="kit-price">R$ 389</div>
+                    <div class="kit-price-note">parcelamento em até 12x</div>
+                    <ul class="kit-items">
+                        <li>Tudo do Kit Premium</li>
+                        <li>Descontaminante de Pintura</li>
+                        <li>Selante Cerâmico 50ml</li>
+                        <li>Aspirador Portátil</li>
+                        <li>Luva de Microfibra</li>
+                        <li>Balde de Lavagem 12L</li>
+                        <li>Manual Técnico Digital</li>
+                    </ul>
+                    <button class="btn-kit outline">Adicionar ao Carrinho</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- MASTERY / VIDEO -->
+    <section class="mastery">
+        <div class="mastery-bg"></div>
+        <div class="container">
+            <div class="mastery-inner">
+                <div>
+                    <div class="section-tag">Nossa Expertise</div>
+                    <h2 class="section-title">Dominamos a arte de<span>cuidar do seu carro</span></h2>
+                    <div class="mastery-feats">
+                        <div class="mastery-feat">
+                            <div class="mastery-feat-num">01</div>
+                            <div>
+                                <div class="mastery-feat-title">Produtos Selecionados</div>
+                                <div class="mastery-feat-desc">Todos os nossos produtos passam por rigoroso controle de
+                                    qualidade antes de chegarem até você.</div>
+                            </div>
+                        </div>
+                        <div class="mastery-feat">
+                            <div class="mastery-feat-num">02</div>
+                            <div>
+                                <div class="mastery-feat-title">Equipe Especializada</div>
+                                <div class="mastery-feat-desc">Contamos com especialistas em detailing automotivo para
+                                    orientar a melhor escolha para cada caso.</div>
+                            </div>
+                        </div>
+                        <div class="mastery-feat">
+                            <div class="mastery-feat-num">03</div>
+                            <div>
+                                <div class="mastery-feat-title">Resultados Comprovados</div>
+                                <div class="mastery-feat-desc">Mais de 5.000 clientes satisfeitos atestam a qualidade
+                                    dos nossos produtos e serviços.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mastery-video-side">
+                    <div class="video-box">
+                        <div class="video-bg"></div>
+                        <div class="play-btn">
+                            <svg fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="mastery-stats">
+                        <div class="mstat">
+                            <div class="mstat-num">8+</div>
+                            <div class="mstat-label">Anos de Mercado</div>
+                        </div>
+                        <div class="mstat">
+                            <div class="mstat-num">5K+</div>
+                            <div class="mstat-label">Kits Vendidos</div>
+                        </div>
+                        <div class="mstat">
+                            <div class="mstat-num">120+</div>
+                            <div class="mstat-label">Produtos</div>
+                        </div>
+                        <div class="mstat">
+                            <div class="mstat-num">100%</div>
+                            <div class="mstat-label">Garantia</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+        <div class="container">
+            <div style="text-align:center;max-width:560px;margin:0 auto;">
+                <div class="section-tag" style="justify-content:center;">Depoimentos</div>
+                <h2 class="section-title">O que nossos <span>clientes dizem</span></h2>
+            </div>
+            <div class="testimonials-grid">
+
+                <div class="testi-card">
+                    <div class="testi-stars">★★★★★</div>
+                    <div class="testi-text">"O Kit Premium superou todas as minhas expectativas. Meu carro ficou como
+                        novo depois de usar os produtos da CarExpress. Recomendo para todos!"</div>
+                    <div class="testi-author">
+                        <div class="testi-avatar">MR</div>
+                        <div>
+                            <div class="testi-name">Marcos Ribeiro</div>
+                            <div class="testi-city">Cachoeiro de Itapemirim, ES</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testi-card">
+                    <div class="testi-stars">★★★★★</div>
+                    <div class="testi-text">"Entrega rápida, produtos de ótima qualidade e atendimento excelente. A cera
+                        cristalizadora durou muito mais do que esperava. Com certeza vou comprar mais!"</div>
+                    <div class="testi-author">
+                        <div class="testi-avatar">AC</div>
+                        <div>
+                            <div class="testi-name">Ana Carolina</div>
+                            <div class="testi-city">Vitória, ES</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testi-card">
+                    <div class="testi-stars">★★★★★</div>
+                    <div class="testi-text">"Comprei o Kit Professional para usar no meu trabalho. A qualidade é
+                        impressionante, os clientes ficaram muito satisfeitos com o resultado. Vale cada centavo!"</div>
+                    <div class="testi-author">
+                        <div class="testi-avatar">JS</div>
+                        <div>
+                            <div class="testi-name">João Santos</div>
+                            <div class="testi-city">Serra, ES</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section class="cta-banner" id="contato">
+        <div class="container">
+            <div class="cta-inner">
+                <div>
+                    <h2 class="cta-title">Pronto para transformar<br><span>seu veículo?</span></h2>
+                    <p class="cta-desc">Fale com nossos especialistas e receba uma indicação personalizada.</p>
+                </div>
+                <button class="btn-cta-white">Fale Conosco Agora</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <img src="/mnt/user-data/uploads/CarExpress-logo__1_.png" alt="CarExpress" class="footer-brand-logo"
+                        onerror="this.style.display='none';this.nextElementSibling.style.display='block'" />
+                    <span
+                        style="display:none;font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:28px;color:#fff;margin-bottom:20px;display:block;"><span
+                            style="color:#d4181a">Car</span>Express</span>
+                    <p class="footer-brand-desc">Especialistas em kits automotivos de alta qualidade para a manutenção,
+                        proteção e estética do seu veículo.</p>
+                    <div class="footer-socials">
+                        <div class="social-btn" title="Instagram">
+                            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke-width="2" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-width="2" />
+                            </svg>
+                        </div>
+                        <div class="social-btn" title="Facebook">
+                            <svg fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+                            </svg>
+                        </div>
+                        <div class="social-btn" title="WhatsApp">
+                            <svg fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                            </svg>
+                        </div>
+                        <div class="social-btn" title="YouTube">
+                            <svg fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58z" />
+                                <polygon fill="white" points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="footer-col-title">Navegação</div>
+                    <ul class="footer-links">
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#kits">Kits Automotivos</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="footer-col-title">Categorias</div>
+                    <ul class="footer-links">
+                        <li><a href="#">Polimento</a></li>
+                        <li><a href="#">Limpeza & Lavagem</a></li>
+                        <li><a href="#">Proteção de Pintura</a></li>
+                        <li><a href="#">Higienização Interna</a></li>
+                        <li><a href="#">Renovação</a></li>
+                        <li><a href="#">Acessórios</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="footer-col-title">Contato</div>
+                    <div class="footer-contact-item">
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        <span>Cachoeiro de Itapemirim, ES</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 8V5z" />
+                        </svg>
+                        <span>(28) 9 9999-9999</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                        <span>contato@carexpress.com.br</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <span>Seg - Sáb: 8h às 18h</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copy">© 2026 <a href="#">CarExpress</a> — Kits Automotivos. Todos os direitos
+                    reservados.</div>
+                <div class="footer-legal">
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos de Uso</a>
+                    <a href="#">Trocas e Devoluções</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
