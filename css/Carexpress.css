@@ -175,7 +175,7 @@ nav {
 .hero-bg {
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(10, 10, 10, 0.7) 0%, rgba(26, 5, 5, 0.7) 50%, rgba(10, 10, 10, 0.7) 100%), url('/img/carroFundoImg.png');
+    background: linear-gradient(135deg, rgba(10, 10, 10, 0.7) 0%, rgba(26, 5, 5, 0.7) 50%, rgba(10, 10, 10, 0.7) 100%), url('../img/carroFundoImg.png');
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
