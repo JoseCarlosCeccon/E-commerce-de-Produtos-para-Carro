@@ -628,6 +628,8 @@ section {
     overflow: hidden;
     transition: transform 0.2s, border-color 0.2s;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
 }
 
 .product-card:hover {
@@ -678,6 +680,9 @@ section {
 
 .product-body {
     padding: 24px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .product-cat {
@@ -702,6 +707,7 @@ section {
     font-size: 13px;
     line-height: 1.6;
     margin-bottom: 20px;
+    flex: 1;
 }
 
 .product-footer {
